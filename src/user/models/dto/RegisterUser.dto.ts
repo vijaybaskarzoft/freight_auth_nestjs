@@ -4,6 +4,6 @@ import { LoginUserDto } from "./LoginUser.dto";
 export class RegisterUserDto extends LoginUserDto{
 
     @IsString()
-    name: string;
+    carrier_name: string;
 
 }
